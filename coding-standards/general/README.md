@@ -196,9 +196,12 @@ No hard and fast rules here, but try to stick to the following:
 - Prefer maps/filters/reductions over looping
 - Prefer immutable data
 
-## Object Calisthenics
+## Object Calisthenics  -- this may be a bit much right off the bat!
 
-At Grrr, we practice [Object Calisthenics](http://williamdurand.fr/2013/06/03/object-calisthenics/).
+There are some interesting and useful ideas here that can result in more
+maintainable code, but we may or may not want to adopt all of these patterns.
+
+We practice [Object Calisthenics](http://williamdurand.fr/2013/06/03/object-calisthenics/).
 Generally, the most important bits are:
 
 ### Only one level of indentation per method

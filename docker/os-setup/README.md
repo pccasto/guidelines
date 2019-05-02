@@ -1,5 +1,12 @@
 # Docker OS Setup
 
+## Not converted for use with moOde.
+
+Running MoOde, or moOde processes in a docker container may allow for quicker
+testing, but is not part of a current (or planned) workflow.
+
+This document exists to capture any experimental efforts that may be taken.
+
 ## Installation
 
 - Install the [Docker client](https://www.docker.com/community-edition#/download)
@@ -61,4 +68,3 @@ end
 
   Add the following line to `/etc/hosts`:
   `127.0.0.1 db`
-

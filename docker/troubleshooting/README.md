@@ -1,4 +1,12 @@
 # Troubleshooting
+
+## Not converted for use with moOde.
+
+Running MoOde, or moOde processes in a docker container may allow for quicker
+testing, but is not part of a current (or planned) workflow.
+
+This document exists to capture any experimental efforts that may be taken.
+
 ## Port in use? Free the ports!
 Make sure Apache / Nginx is not running on your local machine on port `80`.
 The same goes for MySQL if it's running on port `3306` on `localhost`.
@@ -42,7 +50,7 @@ $ docker-compose pull
 ```
 
 ## Node is going cray-cray / `npm install` is choking!
-If you have done an `npm install` before on your host system (f.i. OSX), these are not compiled for the right system inside the web server (Debian). 
+If you have done an `npm install` before on your host system (f.i. OSX), these are not compiled for the right system inside the web server (Debian).
 
 Solution is to compile again inside the container:
 ```bash
@@ -67,6 +75,6 @@ As a workaround, you can delete `application/data/docker/*` and restart the serv
 Something is happening and it seems to be specifically tied to the Docker setup?
 To debug, you can take a look at the setup that we use for Docker.
 It consists of 3 opensource images:
-* the [web server](https://github.com/grrr-amsterdam/garp3-httpd-docker)
-* the [database server](https://github.com/grrr-amsterdam/garp3-db-docker)
-* and the [data storage container](https://github.com/grrr-amsterdam/garp3-data-docker)
+* the [web server](https://github.com/moode-audio/SOMETHING-WEB-docker)
+* the [database server](https://github.com/moode-audio/SOMTHING-DB-docker)
+* and the [data storage container](https://github.com/moode-audio/SOMETHING-DATA-docker)

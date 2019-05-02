@@ -1,6 +1,32 @@
 # Dependencies you need locally
-This is everything you need on a Mac to do development work at Grrr.
 
+
+## Need sections for
+
+- MacOS
+- Windows
+- linux
+- VirtualBox w/ Linux
+
+
+## Need to define tools that should be part of environment:
+
+I'm not overly opinionated on these, but there should be a  list of core pieces.
+- jslint ?
+- https://github.com/squizlabs/PHP_CodeSniffer/ ?
+- any node or npm packages ?
+
+If we have common core tools, then we can add some .git/hooks/pre-commit to validate whatever needs checking prior to committing.
+
+
+
+
+
+## Not converted for use with moOde.
+
+
+
+## below was for Mac, but not yet converted
 
 ## SSH key
 Create an SSH key:

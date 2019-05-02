@@ -1,6 +1,17 @@
 # Docker
 
-At Grrr, we use Docker for local development and more. This ensures development-production parity, and prevents a lot of manual configuration work.
+Running MoOde, or moOde processes in a docker container may allow for quicker
+testing, but is not part of a current (or planned) workflow.
+
+This document exists to capture any experimental efforts that may be taken.
+
+Possible starting points:
+
+- https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/
+- https://ownyourbits.com/2018/06/27/running-and-building-arm-docker-containers-in-x86/
+
+Much of the rest of this is carry-over from a project that does use docker, and
+is left here in the hopes that it one day may be useful.
 
 
 First, make sure you [prepared your OS](os-setup/README.md).

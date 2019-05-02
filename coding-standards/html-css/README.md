@@ -31,7 +31,7 @@ While not enforced by linting, finding properties is easier when they're always 
 - `Transitions and transforms`
 - `Various (box-shadow etc.)`
 
-We deem certain properties more important than others. When a property influences other elements, it's probably more imporant than a property which does not. Also keep in mind how the [box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) roughly works. With our property order, we're mostly going from the outside to the inside, following the visual representation of this model.
+We deem certain properties more important than others. When a property influences other elements, it's probably more important than a property which does not. Also keep in mind how the [box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) roughly works. With our property order, we're mostly going from the outside to the inside, following the visual representation of this model.
 
 A common example would be:
 
@@ -281,7 +281,7 @@ When in doubt, split up the module.
 
 Your element might have states, such as 'active', or 'hidden'. State classes always start with `is-...` or `has-...` and do not contain the module parents' name. Furthermore, there can be global state classes, usually appended to the `html` or `body` elements.
 
-In some cases a state attribute might be more approprite, for example: `[data-direction="top/right/bottom/left"]`.
+In some cases a state attribute might be more appropriate, for example: `[data-direction="top/right/bottom/left"]`.
 
 Prefer ARIA attributes whenever possible. As they provide styling hooks while improving the accessibility at the same time (e.g. `[aria-expanded="true"]`, `[aria-hidden="true"]`).
 
@@ -307,7 +307,7 @@ Some examples of where comments are a necessity:
 - Only use open source fonts or fonts with an obtained license
 - Preload webfonts and asynchronous JavaScript
 - Don't load font weights or variants that won't be used
-- Use our [SVG helper](https://github.com/grrr-amsterdam/garp_scaffold/blob/master/application/modules/default/views/helpers/Svg.php) for including SVGs
+- Do we use including SVGs - if so, use a helper
 - Don't use icon fonts
 
 ### Performance
