@@ -2,7 +2,7 @@
 
 ## One Flow
 
-We use the [One Flow](http://endoflineblog.com/oneflow-a-git-branching-model-and-workflow) model for organizing branches. However we have elected to use the "develop + master variation". There are two long-running branches, `master`, and `develop`.
+We use the [OneFlow variation](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow#variation-develop-master) model for organizing branches. We have elected to use the "develop + master variation". There are two long-running branches, `master`, and `develop`.
 From there we branch off to create _feature_ branches and _hotfix_ branches. We use git tags extensively to mark deployable commits.
 
 Using this approach, the `develop` branch reflects the current state of the product,
